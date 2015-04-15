@@ -1,0 +1,163 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+/* End of Reset */
+
+body {
+  background: #BD4932;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*========================
+          Layout
+=========================*/
+main {
+  min-height: 100%;
+  margin-bottom: -278px;
+  height: auto!important;
+}
+
+
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Pacifico', Georgia, serif;
+  font-size: 5em;
+  color: #FFD34E;
+  text-align: center;
+  margin: 1em 0;
+}
+
+p.dimensions {
+  font-size: 3em;
+  text-align: center;
+  margin: 3em 0 0;
+}
+
+.light {
+  color: #FFFAD5;
+}
+
+.dark {
+  color: #105B63;
+}
+
+.parent {
+  background: #FFFAD5;
+  width: 100%;
+  height: 350px;
+  float: right;
+}
+
+.col-main {
+  width: 100%;
+  float: left;
+}
+
+.col-40 {
+  width: 41.41%;
+  float: left;
+}
+
+.col-33 {
+  width: 33.2%;
+  float: left;
+  background: #DB9E36;
+  height: 350px;
+  margin-right: 2.05px;
+}
+
+.col-33:last-child{
+  margin-right: 0;
+  float: right;
+}
+
+.col-60 {
+  background: #DB9E36;
+  width: 58.59%;
+  height: 350px;
+  float: left;
+}
+
+.calculations {
+  width: 100%;
+  margin: 3em 0;
+}
+
+.calculations h4 {
+  font-family: Pacifico, Georgia, sans-serif;
+  font-size: 2em;
+  color: #105B63;
+  margin: 1em 0 ;
+  float: left;
+  display: block;
+}
+
+.calculations ul {
+  float: left;
+}
+
+.footer-push{
+  height: 280px;
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  background: #105B63;
+  padding: 4em 0 0;
+  position: relative;
+  margin-top: 10em;
+  display: block;
+  height: 220px;
+}
+
+footer p {
+  font-size: 1em;
+  color: #FFFAD5;
+  font-weight: 400;
+  float: left;
+}

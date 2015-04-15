@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive web design</title>
+<!-- Google font -->
+  <link href='http://fonts.googleapis.com/css?family=Pacifico|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h2>Responsive web design</h2>
+        <section>
+          <div class="parent">
+            <div class="col-40">
+              <p class="dimensions dark">100% width</p>
+            </div>
+            <div class="col-60">
+              <p class="dimensions light">58.59% width</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="calculations col-main">
+            <div class="col-main">
+              <h4>Calculating width:</h4>
+            </div>
+            <ul>
+            <li>Target: Div col-1 = 600px;</li>
+            <li>Context: Div container = 1024px</li>
+            <li>Width = target / context</li>
+            <li>Width = 600 / 1204 = 58.59%</li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </section>
+        <section>
+          <div class="parent">
+            <div class="col-33">
+              <p class="dimensions light">33% width</p>
+            </div>
+            <div class="col-33">
+              <p class="dimensions light">33% width</p>
+            </div>
+            <div class="col-33">
+              <p class="dimensions light">33% width</p>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div class="calculations col-main">
+            <div class="col-main">
+              <h4>Calculating width:</h4>
+            </div>
+            <ul>
+            <li>Target: Div col-1 = 340px;</li>
+            <li>Context: Div container = 1024px</li>
+            <li>Width = target / context</li>
+            <li>Width = 340 / 1204 = 33.2%</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    <div class="footer-push"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h4>Responsive web experiment</h4>
+      <p>Great front-end development requires great User Experience. Our UI/UX designers have not only excellent UX knowledge and intuition but also great communication skills which allow them to gather all functional requirements as effectively as possible.</p>
+    </div>
+  </footer>
+</body>
+</html>
