@@ -99,6 +99,11 @@ main {
   height: auto!important;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
  h4 {
   font-family: 'Pacifico', Georgia, sans-serif;
   margin: 3em 0 1em;
@@ -110,4 +115,14 @@ p {
   text-align: center;
   margin: 0 40px;
   line-height: 1.6em;
+}
+
+a {
+  color: #105B63;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFD34E;
+  border-bottom: 1px solid #FFD34E;
 }
