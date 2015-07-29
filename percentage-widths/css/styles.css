@@ -57,11 +57,11 @@ main {
   height: auto!important;
 }
 
-
 .container{
   width: 1024px;
   margin: 0 auto;
 }
+
 
 h2 {
   font-family: 'Pacifico', Georgia, serif;
@@ -69,6 +69,16 @@ h2 {
   color: #FFD34E;
   text-align: center;
   margin: 1em 0;
+}
+
+p.formula {
+  width: 50%;
+  font-size: 2em;
+  text-align: center;
+  color: #FFFAD5;
+  margin: 1em auto;
+  border: 1px solid #FFFAD5;
+  padding: 2em;
 }
 
 p.dimensions {
