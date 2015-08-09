@@ -76,9 +76,9 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
 
-	nav { 
+	nav {
 		width: 65%;
 		margin-top: 25px;
 	}
@@ -86,7 +86,7 @@ footer {
 	#logo img {
 		max-width: 100%;
 	}
-	
+
 	ul#cols li {
 		width: 100%;
 		margin: 10px 0;
@@ -97,7 +97,7 @@ footer {
 		margin-right: 2%;
 		float: left;
 	}
-	
+
 	ul#cols li h2 {
 		text-align: left;
 	}
@@ -107,11 +107,11 @@ footer {
 		float: none;
 		margin: auto;
 	}
-	
+
 	footer {
 		overflow: hidden;
 	}
-	
+
 	#footerright img {
 		width: 100%;
 	}
@@ -123,7 +123,7 @@ footer {
 		clear: left;
 		width: 100%;
 	}
-	
+
 	#logo {
 		float: none;
 		margin: auto;
@@ -135,16 +135,16 @@ footer {
 	ul#cols li p {
 		display: none;
 	}
-	
+
 	nav {
 		background: #fff;
 	}
-	
+
 	nav li {
 		background-color: rgba(158,158,158, 0.4);
 		padding: 25px 0;
 	}
-	
+
 
 }
 
